@@ -256,16 +256,28 @@ textarea {
   }
 }
 
-/*My Code*/
-body,html {
-	padding-top: 10px;
+/* ===== BASE STYLES =====*/
+
+/*
+ Major Sixth Modular Scale
+ http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+	font-size: 1.375em; /*22px*/
+	line-height: 1.182em;
 	background-color: #485167;
+	padding: 1.182em;
+	text-rendering: optimizeLegibility;
 	color: #f0f1f5;
+}
+li {
+	text-align: center;
 }
 h1 { 
 	text-align: center;
-	font-family: "Segoe UI", Arial, sans-serif;
-	font-size: 50px;
+	font-family: "Times New Roman", Arial, sans-serif;
+	font-size: 4.909em;
 }
 hr {
 	margin-top: 20px;
@@ -277,27 +289,38 @@ hr {
 p {
 	font-family: "Segoe UI", Arial, sans-serif;
 	text-align:center;
-	padding-top: 20px;
-	font-size: 30px;
+	font-size: 2em;
 }
 label[for=email] {
-	padding-top: 20px;
-	padding-bottom: 1em;
+	padding-top: 40px;
+	padding-bottom: 1.000em;
 	text-align: center;
-	display: block;
-	font-family: "Segoe UI", Arial, sans-serif;
-	font-size: 20px;
+	display: inline-block;
+	font-family: "Garamond Header", Arial, sans-serif;
+	font-size: 1.250em;
 }
+
+/* ===== LAYOUT STYLES ===== */
 input[type=email] {
+	border: none;
+	background-color: #c3c8d5;
 	display: block;
 	margin: auto;
+	font-size: 1.618em;
 	text-align: center;
 }
-label  {
+label {
+	margin: auto;
+	margin-top: 20px;
 	padding: 20px;
+	font-size: 1.20em;
 	display: inline-block;
+	font-family: "Garamond Header", Arial, sans-serif;
+}
+input[type=submit] {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
-li {
-	text-align: center;
-}
+
