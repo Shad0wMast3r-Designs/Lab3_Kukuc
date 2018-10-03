@@ -324,15 +324,6 @@ input[type=submit] {
 	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
-@media only screen and (min-width: 480px) {
-	body, html {
-		min-height: 100%;
-	}
-  input[type=submit], input[type=email] {
-    font-size: 4vw;
-		width: 100%;
-  }
-}
 /* ===== STATE STYLES ===== */
 /*.hasjs class will only exist if js runs */
 .hasjs #input-email{
@@ -353,5 +344,10 @@ input[type=submit] {
 .hasjs #age-verification {
   position: absolute;
   left: auto;
+}
+@media only screen and (min-width: 480px) {
+	body, html {
+		min-height: 100%;
+	}
 }
 
