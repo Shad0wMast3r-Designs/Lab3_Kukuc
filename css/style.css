@@ -324,7 +324,7 @@ input[type=submit] {
 	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
-@media screen and (min-width: 480px) {
+@media screen only and (min-width: 480px) {
 	body, html {
 	min-height:100%;
 	}
