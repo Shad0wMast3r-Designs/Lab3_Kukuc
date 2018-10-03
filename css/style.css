@@ -324,11 +324,11 @@ input[type=submit] {
 	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
-@media screen only and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
 	body, html {
-	min-height:100%;
+		min-height: 100%;
 	}
-  input[type="submit"], input[type="email"] {
+  input[type=submit], input[type=email] {
     font-size: 4vw;
 		width: 100%;
   }
@@ -351,7 +351,7 @@ input[type=submit] {
 }
 
 .hasjs #age-verification {
-  position: auto;
+  position: absolute;
   left: auto;
 }
 
