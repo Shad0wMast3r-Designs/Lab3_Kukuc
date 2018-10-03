@@ -257,4 +257,47 @@ textarea {
 }
 
 /*My Code*/
-
+body,html {
+	padding-top: 10px;
+	background-color: #485167;
+	color: #f0f1f5;
+}
+h1 { 
+	text-align: center;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 50px;
+}
+hr {
+	margin-top: 20px;
+	height: 5px;
+	background-color: #f0f1f5;
+	color: #f0f1f5;
+	border-style: none;
+}
+p {
+	font-family: "Segoe UI", Arial, sans-serif;
+	text-align:center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+label[for=email] {
+	padding-top: 20px;
+	padding-bottom: 1em;
+	text-align: center;
+	display: block;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 20px;
+}
+input[type=email] {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+label  {
+	padding: 20px;
+	display: inline-block;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+li {
+	text-align: center;
+}
