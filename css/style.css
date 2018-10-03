@@ -292,8 +292,8 @@ p {
 	font-size: 2em;
 }
 label[for=email] {
-	padding-top: 40px;
-	padding-bottom: 1.000em;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	display: inline-block;
 	font-family: "Garamond Header", Arial, sans-serif;
@@ -312,7 +312,8 @@ input[type=email] {
 label {
 	margin: auto;
 	margin-top: 20px;
-	padding: 20px;
+	padding: 10px;
+	padding-bottom: 30px;
 	font-size: 1.20em;
 	display: inline-block;
 	font-family: "Garamond Header", Arial, sans-serif;
