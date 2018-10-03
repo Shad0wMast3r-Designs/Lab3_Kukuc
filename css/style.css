@@ -324,4 +324,34 @@ input[type=submit] {
 	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
 }
+@media screen and (min-width: 480px) {
+	body, html {
+	min-height:100%;
+	}
+  input[type="submit"], input[type="email"] {
+    font-size: 4vw;
+		width: 100%;
+  }
+}
+/* ===== STATE STYLES ===== */
+/*.hasjs class will only exist if js runs */
+.hasjs #input-email{
+  position: relative;
+}
+
+.hasjs #input-email label {
+  transition: top 1s;
+  top: 26px;
+  left: 20px;
+  display: block;
+}
+
+.hasjs #input-email label.active {
+  top: -25px;
+}
+
+.hasjs #age-verification {
+  position: auto;
+  left: auto;
+}
 
