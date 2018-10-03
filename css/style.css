@@ -309,17 +309,19 @@ input[type=email] {
 	font-size: 1.618em;
 	text-align: center;
 }
+input[type=checkbox] {
+	display: inline-block;
+}
 label {
 	margin: auto;
-	margin-top: 20px;
-	padding: 10px;
+	margin-top: 10px;
 	padding-bottom: 30px;
-	font-size: 1.20em;
+	font-size: 1em;
 	display: inline-block;
 	font-family: "Garamond Header", Arial, sans-serif;
 }
 input[type=submit] {
-	display: block;
+	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: "Segoe UI", Arial, sans-serif;
@@ -345,9 +347,14 @@ input[type=submit] {
   position: absolute;
   left: auto;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 414px) {
 	body, html {
-		min-height: 100%;
+	}
+	input[type=checkbox] {
+		display:inline-block;
+		background-color: blue;
+	}
+	label {
+		display: inline-block;
 	}
 }
-
