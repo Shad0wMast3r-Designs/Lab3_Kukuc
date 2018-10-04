@@ -262,70 +262,78 @@ textarea {
  Major Sixth Modular Scale
  http://www.modularscale.com/?22&px&1.667&web&text
 */
-
 html {
-	font-size: 1.375em; /*22px*/
-	line-height: 1.182em;
-	background-color: #485167;
-	padding: 1.182em;
-	text-rendering: optimizeLegibility;
-	color: #f0f1f5;
+  font-size: 1.375em; /*22px*/
+  line-height: 1.182em;
+  background-color: #485167;
+  padding: 1.182em;
+  text-rendering: optimizeLegibility;
+  color: #f0f1f5;
 }
+
 li {
-	text-align: center;
+  text-align: center;
 }
+
 h1 { 
-	text-align: center;
-	font-size: 2em;
-	font-family: "Times New Roman", Arial, sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Arial, sans-serif;
 }
+
 hr {
-	margin-top: 20px;
-	height: 5px;
-	background-color: #f0f1f5;
-	color: #f0f1f5;
-	border-style: none;
+  margin-top: 20px;
+  height: 5px;
+  background-color: #f0f1f5;
+  color: #f0f1f5;
+  border-style: none;
 }
+
 p {
-	font-family: "Segoe UI", Arial, sans-serif;
-	text-align:center;
-	font-size: 2em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align:center;
+  font-size: 2em;
 }
+
 label[for=email] {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	display: inline-block;
-	font-family: "Garamond Header", Arial, sans-serif;
-	font-size: 1.250em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Garamond Header", Arial, sans-serif;
+  font-size: 1.250em;
 }
 
 /* ===== LAYOUT STYLES ===== */
 input[type=email] {
-	border: none;
-	background-color: #c3c8d5;
-	display: block;
-	margin: auto;
-	font-size: 1.618em;
-	text-align: center;
+  border: none;
+  background-color: #c3c8d5;
+  display: block;
+  margin: auto;
+  font-size: 1.618em;
+  text-align: center;
 }
+
 input[type=checkbox] {
-	display: inline-block;
+  display: inline-block;
 }
+
 label {
-	margin: auto;
-	margin-top: 10px;
-	padding-bottom: 30px;
-	font-size: 1em;
-	display: inline-block;
-	font-family: "Garamond Header", Arial, sans-serif;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  font-size: 1em;
+  display: inline-block;
+  font-family: "Garamond Header", Arial, sans-serif;
 }
+
 input[type=submit] {
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: "Segoe UI", Arial, sans-serif;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
+
 /* ===== STATE STYLES ===== */
 /*.hasjs class will only exist if js runs */
 .hasjs #input-email{
@@ -347,15 +355,15 @@ input[type=submit] {
   position: absolute;
   left: auto;
 }
+
 @media only screen and (max-width: 414px){
-	body, html {
-	}
-	input[type=checkbox] {
-		margin-top: 15px;
-		position: fixed;
-		display:inline-block;
-	}
-	label {
-		display: inline-block;
-	}
+  input[type=checkbox] {
+    margin-top: 15px;
+    position: fixed;
+    display:inline-block;
+  }
+  
+  label {
+    display: inline-block;
+  }
 }
