@@ -5,7 +5,7 @@ Lab 3 Javascript
 
 //jQuery 3.x-style ready event and locaaly scoped $
 jQuery(function($) {
-	$('html').removeClass('nojs');
-	$('html').addClass('hasjs');
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
 });
 
